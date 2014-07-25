@@ -1,0 +1,22 @@
+{
+  "name": "Backbone Pen setter-upper",
+  "version": "1.0",
+  "description": "Convenience script for setting up a Backbone-based 'pen'...",
+  "background": {
+    "scripts": ["jquery.js", "pagescript.js", "background.js"], 
+    "persistent": false
+  },
+  "page_action": {
+    "default_icon": "backbone-19.png",
+    "default_title": "Quickstart for backbone-based 'pen'"
+  },  
+  "permissions" : [
+    "declarativeContent",
+    "tabs",
+    "http://codepen.io/pen/"
+  ],
+  "icons": {
+    "48": "backbone.png"
+  },  
+  "manifest_version": 2
+}
